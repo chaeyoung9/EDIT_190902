@@ -1,0 +1,73 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'cuberotate',
+        },
+      ],
+      path: 'sampledata/acnecuberotate2.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'acne',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: 'acne',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/acnecuberotate2.fbx',
+    name: 'acnecuberotate2',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'C:\\Users\\SSG\\Desktop\\acne.jpg',
+      name: 'acne',
+      pipeline_name: 'C:\\Users\\SSG\\Desktop\\acne.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

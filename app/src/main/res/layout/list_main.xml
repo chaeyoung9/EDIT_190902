@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4200px"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="1100px"
+            app:srcCompat="@drawable/list" />
+
+        <Button
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="173px"
+            android:background="@drawable/scanbutton"
+            android:backgroundTint="@android:color/transparent"
+            android:foreground="@drawable/scanbutton" />
+
+        <Button
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:layout_height="727px"
+            android:backgroundTint="@android:color/transparent"
+            android:foreground="@drawable/item01" />
+
+        <Button
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="725px"
+            android:backgroundTint="@android:color/transparent"
+            android:foreground="@drawable/item02" />
+
+        <Button
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:layout_height="730px"
+            android:backgroundTint="@android:color/transparent"
+            android:foreground="@drawable/item03" />
+
+        <Button
+            android:id="@+id/item4"
+            android:layout_width="match_parent"
+            android:layout_height="747px"
+            android:backgroundTint="@android:color/transparent"
+            android:foreground="@drawable/item04" />
+
+
+    </LinearLayout>
+</ScrollView>

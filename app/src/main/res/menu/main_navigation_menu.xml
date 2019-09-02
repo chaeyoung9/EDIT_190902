@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/account"
+            android:title="쇼핑정보" />
+        <item
+                android:id="@+id/star"
+                android:title="점포안내"
+
+        />
+        <group />
+        <item
+                android:id="@+id/cart"
+                android:title="주차"
+        />
+        <item
+                android:id="@+id/bug_report"
+                android:title="전자영수증"
+        />
+        <item
+                android:id="@+id/setting"
+                android:title="MY신세계"
+        />
+        <item
+                android:id="@+id/logout"
+                android:title="아카데미"
+        />
+        <item
+            android:id="@+id/ar"
+            android:title="S.I. AR SHOW ROOM"
+            />
+
+</menu>
